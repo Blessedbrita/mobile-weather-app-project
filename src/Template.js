@@ -70,7 +70,7 @@ export default function Template() {
                     <div className="row">
                         <div className="col-6">
                             <span className="wind-speed">
-                                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/174/original/wind.png?1710493063" width="25" />
+                                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/174/original/wind.png?1710493063" alt="wind speed" width="25" />
                                 <br />{weather.wind} km/h
                                 <br />
                             </span>
@@ -78,7 +78,7 @@ export default function Template() {
                         </div>
                         <div className="col-6">
                             <span className="humidity">
-                                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/173/original/humidity.png?1710492971" width="25" />
+                                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/173/original/humidity.png?1710492971" alt="humidity" width="25" />
                                 <br />  {weather.humidity} %
                                 <br />
                             </span>
