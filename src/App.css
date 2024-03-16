@@ -2,37 +2,131 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  text-align: center;
+  overflow: hidden;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  max-width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.responsive-image {
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  text-align: center;
+  margin-top: 100px;
+  padding: 5px;
+  width: 450px;
+  margin-left: 550px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.content {
+  width: 100%;
+}
+
+.search-bar {
+  margin-top: 5px;
+  padding: 3px;
+  border-radius: 8px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.20);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.submit {
+  padding: 3px;
+  margin-left: 7px;
+  width: 100px;
+  background: navy;
+  color: snow;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.description {
+  margin-bottom: -55px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.degrees {
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+.temperature {
+  font-size: 45px;
+  margin-top: -30px;
+}
+
+.weather-icon {
+  width: 250px;
+  margin-top: 15px;
+  opacity: 1;
+}
+
+
+.date {
+  font-weight: 600;
+  margin-top: -25px;
+}
+
+.wind-speed {
+  font-weight: 700;
+}
+
+.humidity {
+  font-weight: 700;
+}
+
+.weather-description {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.row {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -10px;
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  flex: 1;
+  padding: 10px;
+  text-wrap: nowrap;
+  margin-bottom: -10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.front {
+  margin-top: 190px;
 }
