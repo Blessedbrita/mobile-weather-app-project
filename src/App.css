@@ -42,6 +42,7 @@ body {
 @media only screen and (max-width: 600px) {
   .wrapper {
     width: 100%;
+    margin-left: auto;
     padding: 5px;
     color: snow;
   }
